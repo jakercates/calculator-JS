@@ -1,0 +1,64 @@
+html body {
+	margin: 0;
+	padding: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px;
+	background-color: #262626;
+	padding: 10px 5px 10px 5px;
+	width: 420px;
+	grid-gap: 4px;
+	justify-content: center;
+	margin: 10rem auto;
+	
+}
+
+.grid-item {
+	background-color: rgba(255,255,255, .8);
+	border: 1px solid rgba(0,0,0,.8);
+	padding: 20px;
+	border-radius: 12px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.grid-item:hover {
+	background-color: #1d915e;
+}
+
+.grid-item:active {
+	transform: translateY(4px);
+}
+
+.grid-item:focus {
+	outline: 0;
+}
+
+.key-btn {
+	width: 280px
+	height: 80px;
+}
+
+#equation-display {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: right;
+	height: 34px; /* keeps display height constant when no data is in textContent */
+}
+
+#btn-del {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+#btn-clear {
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+#equation-display {
+	background-color: #1d915e;
+}
+
