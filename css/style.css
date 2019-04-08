@@ -3,6 +3,10 @@ html body {
 	padding: 0;
 }
 
+body {
+	background-color: rgb(192, 218, 241);
+}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: 100px 100px 100px 100px;
@@ -13,6 +17,17 @@ html body {
 	justify-content: center;
 	margin: 10rem auto;
 	
+}
+
+h1, h2 {
+	text-align: center;
+	margin-top: 0;
+	color: rgb(192, 218, 241);
+}
+
+#header {
+	background-color: rgb(25, 41, 56);
+	padding: 10px 0;
 }
 
 .grid-item {
@@ -60,5 +75,10 @@ html body {
 
 #equation-display {
 	background-color: #1d915e;
+}
+
+#mainHeader {
+	font-size: 34px;
+	text-align: center;
 }
 
